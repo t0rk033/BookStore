@@ -1,0 +1,49 @@
+.headerContainer{
+    background-color: var(--black-100);
+    padding: 1.5rem;
+  
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logo{
+    font-size: 2rem;
+    color: var(--white);
+    position: relative;
+    right: 2.25rem;
+}
+.navLinksUl{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+}
+.navLinksUl a {
+    color: var(--white);
+    text-decoration: none;
+}
+.acess{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+.acess a{
+    color: var(--white);
+    cursor: pointer;
+}
+.search{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 22px;
+    border: none;
+    background-color: var(--white-200);
+}
+.searchIcon{
+position: relative;
+right: 70px;
+}
