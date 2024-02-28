@@ -1,0 +1,59 @@
+.homeContainer{
+    padding: 2.5rem;
+}
+.firstSection{
+    display: flex;
+    align-items: center;
+    
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+
+}
+.textContainer h1{
+font-size:  3.875rem;
+width: 20rem;
+color: #000000d3;
+}
+.textContainer p {
+    width: 15rem;
+}
+.textContainer input[type="email"]{
+    width: 13rem;
+    height: 2.5rem;
+    border: 1px solid #808080b7;
+    border-radius: 22px;
+    background-color: var(--white-200);
+    
+}
+.textContainer input[type="submit"]{
+    width: 13rem;
+    height: 2.5rem ;
+    background-color: #21282E;
+    color: var(--white);
+    border: none;
+    border-radius: 22px;
+    font-size: 1.125rem;
+}
+.firstSection img{
+    width: 80rem;
+}
+.bookCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .625rem;
+    
+}
+.booksRoll{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.bookCard img{
+    width: 10rem;
+    
+}

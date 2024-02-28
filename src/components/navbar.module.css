@@ -25,6 +25,11 @@
 .navLinksUl a {
     color: var(--white);
     text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+}
+.navLinksUl a:hover{
+    opacity: .8;
 }
 .acess{
     display: flex;
@@ -46,4 +51,19 @@
 .searchIcon{
 position: relative;
 right: 70px;
+}
+.drop:hover .dropDownMenu{
+    display: flex;
+    flex-direction: column;
+}
+.dropDownMenu{
+    position: fixed;
+    right: 42.5rem;
+    top: 3.5rem;
+    background-color: var(--black-100);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 6px 4px #0000008e;
+    display: none;
+    margin: 0;
 }
